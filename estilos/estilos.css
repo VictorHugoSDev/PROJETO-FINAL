@@ -1,0 +1,209 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header, footer{
+    background-color: #181818;
+    font-family: "Noto Serif Display", serif;
+}
+
+/*página index*/
+
+/*menu*/
+
+.divTopo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
+    height: auto;
+}
+
+.logo{
+    padding: 10px 0px 0px 10px;
+    transition: transform 0.5s ease;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+}
+
+.imgTopo{
+    width: 100%;
+    height: 250px;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    padding-right: 20px;
+}
+
+.menu li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: white;
+    transition: color 0.3s ease;
+}
+
+.menu li a:hover{
+    background-image: linear-gradient(90deg, #12C2E9, #EF32D9);
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* body */
+
+body{
+    background-color: black;
+}
+
+/* corpo principal */
+
+
+main{
+    font-family: "Noto Sans", sans-serif;
+    background-image: url('../img/Gaudi-esque Surreal Fantasia.jpg'), url('../img/Gaudi-esque Surreal Fantasia-invertida.jpg');
+    background-position: left, right;
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain;
+    width: 100%;
+}
+
+main section{
+    width: 1200px;
+    margin: auto;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    opacity: 1.0;
+}
+
+main section:nth-of-type(odd){
+    background-color: #181818;
+}
+
+main section:nth-of-type(even){
+    background-color: rgb(20, 17, 17);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.container > div {
+    width: 100%;
+    padding: 20px;
+}
+
+p{
+    padding: 5px 0px;
+    text-align: justify;
+    font-size: 16px;
+}
+
+h2{
+    text-align: left;
+    padding: 10px 0px;
+}
+
+button{
+    margin-top:20px;
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+    text-transform: uppercase;
+}
+
+button:hover{
+    text-decoration: underline;
+    background: linear-gradient(90deg, #12C2E9, #EF32D9);
+}
+
+section:nth-of-type(1) > div{
+    padding: 15px;
+}
+
+.vertentes p{
+    height: 170px;
+}
+
+.festivais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.festivais img{
+    width: 500px;
+    height: auto;
+}
+
+.artistas {
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.artistas img{
+    width: 300px;
+    height: auto;
+}
+
+.artistas p{
+    height: 200px;
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+    position: relative;
+    font-size: 15px;
+    gap: 10px;
+}
+
+footer p{
+    margin: 0;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+}
+
+footer a:hover{
+    color: #FF6A22;
+}
+
+.linkSoundcloud{
+    display: flex;
+    align-items: center;
+}
+
+footer img{
+    width: 30px;
+    height: auto;
+}
