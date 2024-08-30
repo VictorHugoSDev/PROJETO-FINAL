@@ -104,9 +104,10 @@ footer img{
 main{
     font-family: "Noto Sans", sans-serif;
     background-image: url('../img/Gaudi-esque Surreal Fantasia.jpg'), url('../img/Gaudi-esque Surreal Fantasia-invertida.jpg');
-    background-position: left, right;
+    background-position: left center, right center;
     background-repeat: no-repeat, no-repeat;
-    background-size: auto;
+    background-size: 600px;
+    background-attachment: fixed;
     background-color: black;
     width: 100%;
 }
@@ -307,9 +308,7 @@ section:nth-of-type(1) > div{
 /* configuracoes pagina vertentes */
 
 .vertentes{
-    background-image: url('../img/Psytrance\ Goddess\ of\ Color-invertido.jpg'), url('../img/Psytrance\ Goddess\ of\ Color.jpg'), url('../img/Tantalizing\ Transcendora-invertido.jpg'), url('../img/Tantalizing\ Transcendora.jpg'), url('../img/Taran\ Tikula-invertido.jpg'), url('../img/Taran\ Tikula.jpg');
-    background-position: top left, top right, bottom right, bottom left, center left, center right;
-    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+    background-image: url('../img/Psytrance\ Goddess\ of\ Color-invertido.jpg'), url('../img/Psytrance\ Goddess\ of\ Color.jpg');
 }
 
 .vertentes > div {
