@@ -49,7 +49,7 @@ header, footer{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: white;
-    transition: color 0.3s ease;
+    transition: color 0.5s ease;
 }
 
 .menu li a:hover{
@@ -106,7 +106,8 @@ main{
     background-image: url('../img/Gaudi-esque Surreal Fantasia.jpg'), url('../img/Gaudi-esque Surreal Fantasia-invertida.jpg');
     background-position: left, right;
     background-repeat: no-repeat, no-repeat;
-    background-size: contain;
+    background-size: auto;
+    background-color: black;
     width: 100%;
 }
 
@@ -148,7 +149,7 @@ p{
 
 h2{
     text-align: left;
-    padding: 20px 0px;
+    padding: 10px 0px;
     text-transform: uppercase;
 }
 
@@ -162,10 +163,25 @@ h2:hover{
 
 h3{
     text-decoration: underline;
+    padding: 15px 0px;
+    font-size: 22px;
+}
+
+h4{
+    padding: 10px 0px;
+    font-size: 18px;
 }
 
 h3:hover{
     color: rgb(25, 253, 25);
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: #B6FF00;
 }
 
 button{
@@ -190,13 +206,25 @@ button:hover{
     background: linear-gradient(90deg, #12C2E9, #EF32D9);
 }
 
+.imgPaises{
+    width: 28px;
+    height: auto;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+}
+
 /* configuracoes da pagina index */
 
 section:nth-of-type(1) > div{
     padding: 15px;
 }
 
-.vertentes p{
+.containerVertentes p{
     height: 170px;
 }
 
@@ -260,19 +288,44 @@ section:nth-of-type(1) > div{
 
 .expansao > div > h3{
     text-align: center;
-    height: 60px;
+    height: 80px;
 }
 
 .expansao > div > p:nth-of-type(even){
-    height: 330px;    
+    height: 360px;    
 }
 
 .expansao > div > a{
-    color: white;
     font-size: 12px;
 }
 
 .imgExpansao{
     width: 100%;
     height: auto;
+}
+
+/* configuracoes pagina vertentes */
+
+.vertentes{
+    background-image: url('../img/Psytrance\ Goddess\ of\ Color-invertido.jpg'), url('../img/Psytrance\ Goddess\ of\ Color.jpg'), url('../img/Tantalizing\ Transcendora-invertido.jpg'), url('../img/Tantalizing\ Transcendora.jpg'), url('../img/Taran\ Tikula-invertido.jpg'), url('../img/Taran\ Tikula.jpg');
+    background-position: top left, top right, bottom right, bottom left, center left, center right;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+}
+
+.vertentes > div {
+    flex: 1;
+    min-width: 300px;
+    padding: 10px;
+}
+
+.vertentes ul:hover{
+    color: #FE0034;
+}
+
+.vertentes h4:hover{
+    color:#FF4901;
+}
+
+.vertentes a{
+    display: block;
 }
