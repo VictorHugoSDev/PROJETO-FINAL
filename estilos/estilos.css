@@ -258,12 +258,21 @@ section:nth-of-type(1) > div{
     padding: 10px;
 }
 
-.imgExpansao{
-    width: 100%;
-    height: auto;
+.expansao > div > h3{
+    text-align: center;
+    height: 60px;
+}
+
+.expansao > div > p:nth-of-type(even){
+    height: 330px;    
 }
 
 .expansao > div > a{
     color: white;
     font-size: 12px;
+}
+
+.imgExpansao{
+    width: 100%;
+    height: auto;
 }
