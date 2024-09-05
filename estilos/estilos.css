@@ -344,3 +344,57 @@ section:nth-of-type(1) > div {
   display: block;
   padding: 5px 0px;
 }
+
+/* confirguracoes tamanho dos blocos da pagina vertentes */
+
+.explicacao{
+  height: 300px;
+}
+
+.tempo{
+  height: 130px;
+}
+
+.melodias{
+  height: 180px;
+}
+
+.elementos{
+  height: 240px;
+}
+
+.estrutura{
+  height: 180px;
+}
+
+.produtores{
+  height: 150px;
+}
+
+.explicacaoFull{
+  height: 190px;
+}
+
+.tempoFull{
+  height: 100px;
+}
+
+.melodiasFull{
+  height: 120px;
+}
+
+.elementosFull{
+  height: 150px;
+}
+
+.estruturaFull{
+  height: 110px;
+}
+
+.tempoHi{
+  height: 165px;
+}
+
+.estruturaHi{
+  height: 230px;
+}
