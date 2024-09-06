@@ -179,6 +179,10 @@ h3:hover {
   color: rgb(25, 253, 25);
 }
 
+h4:hover{
+  color: #001DFF;
+}
+
 a {
   color: white;
 }
@@ -350,7 +354,7 @@ summary{
   cursor: pointer;
 }
 
-/* confirguracoes tamanho dos blocos da pagina vertentes */
+/* confirguracoes tamanho do bloco da pagina vertentes */
 
 .explicacao{
   height: 300px;
@@ -362,4 +366,31 @@ summary{
 
 .explicacaoOutros{
   height: 190px;
+}
+
+/* configuracoes pagina festivais */
+
+.festivaisPag{
+  background-image: url("../img/Tantalizing Transcendora.jpg"),
+    url("../img/Tantalizing Transcendora-invertido.jpg");
+}
+
+.festivaisSecao{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.festivaisSecao > div{
+  width: 100%;
+  text-align: center;
+}
+
+.festivaisPag img {
+  width: 500px;
+  height: auto;
+}
+
+.festivaisPag button{
+  margin: 20px 0px 40px 0px;
 }
