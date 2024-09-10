@@ -302,7 +302,7 @@ section:nth-of-type(1) > div {
 }
 
 .expansao > div > p:nth-of-type(even) {
-  height: 360px;
+  height: 300px;
 }
 
 .expansao > div > a {
@@ -394,3 +394,47 @@ summary{
 .festivaisPag button{
   margin: 20px 0px 40px 0px;
 }
+
+/* configuracoes pagina artistas */
+
+.artistasPag{
+  background-image: url("../img/Taran Tikula.jpg"),
+    url("../img/Taran Tikula-invertido.jpg");
+}
+
+.buttonArtistas{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.nacionais img, .internacionais img{
+    width: 100%;
+    height: auto;
+}
+
+.containerArtistas{
+  display: flex;
+  align-items: center;
+  gap: 20px;  
+}
+
+.textoArtistas{
+  flex: 2;
+  max-width: 50%;
+}
+
+.imgArtistas{
+  flex: 1;
+  max-width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+.imgArtistas img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
