@@ -424,6 +424,14 @@ summary{
   max-width: 50%;
 }
 
+.textoArtistas h2{
+  padding: 5px 0px;
+}
+
+.textoArtistas h4, .textoArtistas p{
+  padding: 8px 12px;
+}
+
 .imgArtistas{
   flex: 1;
   max-width: 50%;
@@ -436,4 +444,9 @@ summary{
   max-width: 100%;
   height: auto;
   display: block;
+}
+
+.nacionais > .container > div > p, 
+.internacionais > .container > div > p{
+ height: 250px;
 }
